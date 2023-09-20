@@ -1,0 +1,20 @@
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--light, #EDEFEE);
+    padding: 7px 10%;
+}
+
+.nav-link {
+    color: var(--dark, #333333);
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: var(--secondary2, #FBDABB);
+}
+
+/* End Of Navbar styles */

@@ -3,13 +3,13 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Highlights from './components/Highlights';
-import Navbar from './components/Navbar';
+import NavigationBar from './components/NavigationBar';
 import Testimonials from './components/Testimonials';
 
 function App() {
   return (
     <>
-      <Navbar />
+    <NavigationBar/>
       <main>
         <Hero />
         <Highlights />
