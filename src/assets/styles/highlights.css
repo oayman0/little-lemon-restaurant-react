@@ -1,0 +1,90 @@
+.highlights {
+    padding: 60px 30px;
+    background: var(--light, #EDEFEE);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dish-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.dish-card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    border-radius: 16px;
+    background: #CBCBCB;
+    max-width: 300px;
+}
+
+.dish-card-info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 316px;
+}
+
+.dish-card img {
+    height: 184px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.highlights>button {
+    width: 187px;
+    height: 64px;
+    font-size: 16px;
+    color: var(--dark, #333);
+    background-color: var(--primary2, #F4CE14);
+    border: none;
+    border-radius: 16px;
+    font-weight: 600;
+    align-self: center;
+}
+
+.dish-card h4{
+    color: rgb(190, 0, 0);
+}
+.dish-card button {
+    width: 187px;
+    height: 40px;
+    color: var(--dark, #333);
+    background-color: var(--light,#EDEFEE);
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    align-self: center;
+}
+
+/* Tablets Styles */
+@media (min-width: 769px) {
+    .highlights {
+        padding: 120px 100px;
+    }
+
+    .dish-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .highlights {
+        padding: 170px 170px;
+        
+    }
+
+    .dish-cards {
+        justify-content: space-between;
+    }
+}

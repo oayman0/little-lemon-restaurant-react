@@ -1,51 +1,40 @@
-
 /* Hero Section Styles (Mobile) */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../images/hero.jpg');
     background-size: cover;
     background-position: center center;
+    padding: 60px 30px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    min-height: 424px;
-    gap: 30px;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    min-height: 311px;
-    margin: 30px;
+    gap: 30px;
+    max-width: 365px;
 }
 
-.hero-info h1 {
+.hero h1 {
     color: var(--primary2, #F4CE14);
 }
 
-.hero h2 {
+.hero h2,
+.hero p {
     color: var(--light, #EDEFEE);
 }
 
-.hero-info p {
-    color: var(--light, #EDEFEE);
-}
-
-.hero-info button {
+.hero button {
     width: 187px;
     height: 64px;
-    display: inline-block;
     font-size: 16px;
-    color: var(--dark);
-    background-color: var(--primary2);
-    padding: 15px 32px;
-    margin: auto;
+    color: var(--dark, #333);
+    background-color: var(--primary2, #F4CE14);
     border: none;
     border-radius: 16px;
-    text-align: center;
-    text-decoration: none;
+    font-weight: 600;
+    align-self: center;
 }
 
 .hero img {
@@ -55,16 +44,18 @@
 
 /* Tablets Styles */
 @media (min-width: 769px) {
+
     .hero {
         background-image: none;
         background-color: var(--primary1, #495E57);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 56px 100px;
     }
-.hero-info{
-    width: 365px;
-}
+
     .hero img {
         display: block;
-        width: 290px;
+        width: 250px;
         height: auto;
         transform: translateY(135px);
     }
@@ -73,6 +64,10 @@
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
+    .hero {
+        padding: 56px 170px;
+    }
+
     .hero img {
         width: 384px;
     }
