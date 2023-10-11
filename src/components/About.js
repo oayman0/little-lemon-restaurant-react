@@ -11,8 +11,8 @@ const About =()=>{
                 <p>Discover the perfect blend of timeless Mediterranean recipes and contemporary culinary flair at our family-owned restaurant in the heart of Cairo. Join us for a dining experience that honors tradition while embracing innovation. Welcome to Little Lemon!</p>
             </div>
             <div className="about-images">
-                <img src={about1} />
-                <img src={about2} />
+                <img src={about1} alt='Restaurant Hall'/>
+                <img src={about2} alt='Chef seasoning a salad' />
             </div>
         </div>
     </section>

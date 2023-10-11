@@ -9,7 +9,7 @@ const Hero = () => {
                     <p>We are a family owned Mediterranean restaurant, focused on traditional recopies, served with a modern twist.</p>
                     <button>Reserve a Table </button>
                 </div>
-                <img src={heroImage} alt='Hero image' />
+                <img src={heroImage} alt='Chef serving the main dish' />
             </section>
         </>
     )

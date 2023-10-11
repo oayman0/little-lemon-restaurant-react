@@ -15,7 +15,7 @@ const Highlights = () => {
 
                     <div className='dish-cards'>
                         <div className='dish-card'>
-                            <img src={greekSalad} />
+                            <img src={greekSalad} alt='Greek Salad'/>
                             <div className='dish-card-info'>
 
                                 <h3>Greek Salad</h3>
@@ -28,7 +28,7 @@ const Highlights = () => {
                         </div>
 
                         <div className='dish-card'>
-                            <img src={bruschetta} />
+                            <img src={bruschetta} alt='Bruschetta' />
                             <div className='dish-card-info'>
                                 <h3>Bruschetta</h3>
                                 <h4>$8.99</h4>
@@ -40,7 +40,7 @@ const Highlights = () => {
                         </div>
 
                         <div className='dish-card'>
-                            <img src={lemonDessert} />
+                            <img src={lemonDessert} alt='Lemon Dessert'/>
                             <div className='dish-card-info'>
                                 <h3>Lemon Dessert</h3>
                                 <h4>$6.99</h4>

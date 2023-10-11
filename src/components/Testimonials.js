@@ -14,7 +14,7 @@ const Testimonials = () => {
                         <div className='testimonial-card'>
                             <div className='testimonial-card-title'>
 
-                            <img src={person1} />
+                            <img src={person1} alt='client profile picture' />
                             <h4>Sarah M.</h4>
 
                             </div>
@@ -22,14 +22,14 @@ const Testimonials = () => {
                         </div>
                         <div className='testimonial-card'>
                         <div className='testimonial-card-title'>
-                            <img src={person2} />
+                            <img src={person2} alt='client profile picture' />
                             <h4>Omar A.</h4>
                             </div>
                             <p>Bruschetta at Little Lemon is a burst of Italian goodness! The tomatoes were so fresh. Definitely coming back for more!</p>
                         </div>
                         <div className='testimonial-card'>
                         <div className='testimonial-card-title'>
-                            <img src={person3} />
+                            <img src={person3} alt='client profile picture' />
                             <h4>Layla A.</h4>
                             </div>
                             <p>The Lemon Dessert at this place is the perfect ending to any meal. It's like a burst of sunshine on your plate. Love it!</p>

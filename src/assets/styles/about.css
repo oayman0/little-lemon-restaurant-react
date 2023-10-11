@@ -1,15 +1,16 @@
 .about{
     display: flex;
     flex-direction: column;
-    background: var(--primary-1, #495E57);
+    background: var(--primary1, #495E57);
     padding: 60px 30px;
     gap: 50px;
 }
 .about-info{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     max-width: 350px;
+    min-width: 300px;
 }
 .about h1{
     color: var(--primary2,#F4CE14);
@@ -20,12 +21,22 @@
 .about img{
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
+.about-images{
+display: flex;
+flex-grow: 1;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+
 /* Tablets Styles */
 @media (min-width: 769px) {
   .about{
     flex-direction: row;
-    padding: 170px 170px;
+    padding: 100px 100px;
     justify-content: space-between;
     align-items: center;
   }
@@ -33,5 +44,11 @@
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
- 
+    .about{
+        padding: 170px 170px;
+    }
+    .about img{
+        width: 350px;
+        height: 350px;
+    }
 }
