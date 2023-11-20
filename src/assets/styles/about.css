@@ -45,7 +45,7 @@ gap: 20px;
 /* Desktop Styles */
 @media (min-width: 1025px) {
     .about{
-        padding: 170px 170px;
+        padding: 100px 170px;
     }
     .about img{
         width: 350px;

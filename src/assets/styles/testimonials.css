@@ -54,10 +54,10 @@
 /* Desktop Styles */
 @media (min-width: 1025px) {
     .testimonials {
-        padding: 170px 170px;
+        padding: 170px 120px;
     }
 
     .testimonial-cards {
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }

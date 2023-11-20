@@ -4,7 +4,7 @@ import about2 from '../assets/images/about2.png'
 const About =()=>{
     return(<>
     <section>
-        <div className="about">
+        <div className="about" id='about'>
             <div className="about-info">
                 <h1>Little Lemon</h1>
                 <h2>Cairo</h2>
