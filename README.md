@@ -36,11 +36,11 @@ The application will be accessible at http://localhost:3000/ in your browser.
 ## Contributing
 If you'd like to contribute to the project, follow these steps:
 
-   Fork the repository on GitHub.
-   Create a new branch with a descriptive name.
-   Make your changes and commit them with clear messages.
-   Push your changes to your fork.
-   Submit a pull request.
+  - Fork the repository on GitHub.
+  - Create a new branch with a descriptive name.
+  - Make your changes and commit them with clear messages.
+  - Push your changes to your fork.
+  - Submit a pull request.
 
 ## Issues
 If you encounter any issues or have suggestions for improvement, please open an issue.
