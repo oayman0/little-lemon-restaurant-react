@@ -33,7 +33,7 @@ Check out the live demo of Little Lemon Restaurant hosted on [https://little-lem
    
 The application will be accessible at http://localhost:3000/ in your browser.
 
-##Contributing
+## Contributing
 If you'd like to contribute to the project, follow these steps:
 
    Fork the repository on GitHub.
@@ -42,8 +42,8 @@ If you'd like to contribute to the project, follow these steps:
    Push your changes to your fork.
    Submit a pull request.
 
-##Issues
+## Issues
 If you encounter any issues or have suggestions for improvement, please open an issue.
 
-##License
+## License
 This project is licensed under the MIT License.
